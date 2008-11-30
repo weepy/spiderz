@@ -1,0 +1,7 @@
+History.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/spiderz
+lib/spiderz.rb
+test/test_spiderz.rb
