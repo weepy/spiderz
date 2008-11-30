@@ -17,14 +17,14 @@ Create a site map.
 # create the class 
 spider = Spiderz.new "http://mysite.com"
 
-# setup a custom
+# setup a custom callback
 spider.success do |url, doc|
   title = (doc / "title").text.strip
   puts "<a href='#{url}' >#{title}</a>"
 end
 
 # set it going
-spider.crawl
+spider.crawl "/"
 
 == REQUIREMENTS:
 
